@@ -1,0 +1,37 @@
+.btn-read{
+  display: flex;
+  position: relative;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  background-color: #fade8b;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 13em;
+  padding: 0.8rem 1.5rem;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  transform-origin: center center;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.btn-read:hover {
+  background-color: rgb(211, 157, 7);
+  transform: scale(1.1);
+}
+
+.btn-read.expanded {
+  width: 150vw;
+  height: 50vh;
+  transform: scale(10);
+  border-radius: 300%;
+  transition: all 0.5s ease-in;
+  color: transparent;
+  pointer-events: none;
+  background-color: rgb(211, 157, 7);
+}
