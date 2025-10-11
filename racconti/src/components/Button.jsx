@@ -1,10 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { GlobalWorkerOptions } from "pdfjs-dist";
-import pdfjsWorker from "pdfjs-dist/build/pdf.worker.min?url";
 import "./Button.css";
-
-GlobalWorkerOptions.workerSrc = pdfjsWorker;
 
 
 function Button(){
@@ -13,7 +9,7 @@ function Button(){
     
     const handleClick = () => {
         setExpanded(true);
-        setTimeout(() => navigate("/pdf"), 1100);
+        setTimeout(() => navigate("/caricamento"), 1100);
     };
 
     return(

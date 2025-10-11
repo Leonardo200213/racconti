@@ -1,0 +1,86 @@
+.back{
+  background-color: rgb(211, 157, 7);
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  font: 1rem "Fira Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.words{
+    padding: 0.1em 1em 0.1em 1em;
+    margin: 0.2em;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    animation: entering 1.5s ease-in-out forwards;
+    position: relative;
+    display: inline-block;
+    overflow: visible;
+}
+
+.words::after{
+    content: "";
+    position: absolute;
+    top: 20%; /*distanza tra altezza massima del testo e animazione*/
+    left: -200%;
+    width: 70%;
+    height: 60%;
+    border-radius: 20%;
+    filter: blur(5px);
+    background: linear-gradient(120deg, transparent, rgba(245, 209, 132, 0.8), transparent);
+    animation: shine 1s ease-in-out 2s forwards;
+}
+
+.words2{
+    padding: 0.1em;
+    margin: 0.2em;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    animation: entering2 2.5s ease-out forwards;
+}
+
+@keyframes entering2{
+    from {
+        opacity: 0;
+        transform: translateY(5em);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes entering{
+    from {
+        opacity: 0;
+        transform: translateY(-2.5em);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes shine {
+  from{
+    left: -25%; opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+    to {
+    left: 70%; opacity: 0;
+  }
+}
+
+@media (max-width: 600px){
+    .words{
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    .words2{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+}

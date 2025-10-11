@@ -1,5 +1,5 @@
-
 body{
   background: linear-gradient(45deg, rgb(0, 0, 0) 38%, rgba(37, 111, 148, 1) 88%);
-  /*overflow: hidden; /*nasconde lo scrolling */
+  overflow: hidden; /*nasconde lo scrolling */
+  margin: 0;
 }
