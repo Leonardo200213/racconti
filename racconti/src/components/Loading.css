@@ -1,13 +1,13 @@
 .back{
-  background-color: rgb(211, 157, 7);
-  width: 100vw;
-  height: 100vh;
-  color: white;
-  font: 1rem "Fira Sans", sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    background-color: rgb(211, 157, 7);
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    font: 1rem "Fira Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .words{
