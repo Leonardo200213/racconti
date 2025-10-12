@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import EIUno from "./EIUno.jsx"
-import Loading from './components/loading.jsx';
+import Loading from './components/Loading.jsx';
 import './App.css'
 import PDFPage from './components/PDFPage.jsx';
 
