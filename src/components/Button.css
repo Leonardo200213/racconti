@@ -35,3 +35,18 @@
   pointer-events: none;
   background-color: rgb(211, 157, 7);
 }
+
+@media (max-width: 768px) {
+  .btn-read {
+    width: 10em;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+  }
+
+  .btn-read.expanded {
+    width: 100vw;
+    height: 40vh;
+    transform: scale(6);
+    border-radius: 200%;
+  }
+}
