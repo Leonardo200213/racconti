@@ -38,3 +38,10 @@
     font: 1.5rem "Fira Sans", sans-serif;
     padding: 0.3em;
 }
+
+@media (max-width: 768px){
+    .cover{
+        width: 70vw;
+        height: 40vh;
+    }
+}
