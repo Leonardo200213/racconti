@@ -1,0 +1,47 @@
+.title-card{
+    text-align: center;
+    justify-items: center;
+    margin-top: 3rem;
+    height: 100vh;
+    color: whitesmoke;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+
+.title{
+    margin: 0.1em;
+    font: 2.5rem "Fira Sans", sans-serif;
+    font-weight: bolder;
+}
+
+.subtitle{
+    font: 1.5rem "Fira Sans", sans-serif;
+    font-weight: bold;
+    margin: 0.5em;
+}
+
+.description{
+    font: 1.1rem "Fira Sans", sans-serif;
+    margin-top: 2rem;
+}
+
+.cover{
+    background-color: white;
+    height: 55vh;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgb(112, 112, 112);
+}
+
+.credits{
+    background-color: rgb(141, 133, 123);
+    font: 1.5rem "Fira Sans", sans-serif;
+    padding: 0.3em;
+}
+
+@media (max-width: 768px){
+    .cover{
+        width: 55vw;
+        height: 35vh;
+    }
+}

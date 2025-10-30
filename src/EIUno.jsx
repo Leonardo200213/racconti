@@ -13,12 +13,12 @@ function EIUno(){
                 <p className="description">Il primo volume della saga, dove tutto inizia</p>
                 <img className="cover" src={MedenCover}/>
                 <br/>
-                <Button/>
+                <Button
+                    bookTitle="Esistenza incompiuta - Medèn"
+                    pdfRoute="/PDF"
+                    pdfFile="/EIMeden.pdf" 
+                />
             </div>
-            {/* 
-            <div className="credits">
-                <label>Two Colors Series</label>
-            </div>*/}
         </>
     );
 }
