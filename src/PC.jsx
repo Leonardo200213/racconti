@@ -1,4 +1,5 @@
 import Button from "./components/Button.jsx"
+import BtnLink from "./components/BtnLink.jsx"
 import "./PC.css"
 import PCCover from "./assets/PCCover.png"
 
@@ -17,6 +18,7 @@ function PC(){
                     pdfRoute="/PDF"
                     pdfFile="/PC.pdf" 
                 />
+                <BtnLink/>
             </div>
         </>
     );

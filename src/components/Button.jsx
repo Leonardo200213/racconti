@@ -24,6 +24,9 @@ function Button({ bookTitle, pdfRoute, pdfFile}){
                 className={`btn-read ${expanded ? "expanded" : ""}`}
                 onClick={handleClick}
             >
+            <img
+                className="btn-readLink"
+                src="Link.png"/>
                 {!expanded && "Leggi"}
             </button>
         </>

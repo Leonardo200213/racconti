@@ -1,4 +1,5 @@
 import Button from "./components/Button.jsx"
+import BtnLink from "./components/BtnLink.jsx"
 import "./EIUno.css"
 import MedenCover from "./assets/MedenCover.png"
 
@@ -18,6 +19,7 @@ function EIUno(){
                     pdfRoute="/PDF"
                     pdfFile="/EIMeden.pdf" 
                 />
+                <BtnLink/>
             </div>
         </>
     );
