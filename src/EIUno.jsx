@@ -14,12 +14,14 @@ function EIUno(){
                 <p className="description">Il primo volume della saga, dove tutto inizia</p>
                 <img className="cover" src={MedenCover}/>
                 <br/>
-                <Button
-                    bookTitle="Esistenza incompiuta - Medèn"
-                    pdfRoute="/PDF"
-                    pdfFile="/EIMeden.pdf" 
-                />
-                <BtnLink/>
+                <div className="btnContainer">
+                    <Button
+                        bookTitle="Esistenza incompiuta - Medèn"
+                        pdfRoute="/PDF"
+                        pdfFile="/EIMeden.pdf" 
+                    />
+                    <BtnLink/>
+                </div>
             </div>
         </>
     );

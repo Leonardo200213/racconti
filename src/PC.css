@@ -39,6 +39,14 @@
     padding: 0.3em;
 }
 
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap; /* serve già come protezione di base */
+}
+
 @media (max-width: 768px){
     .cover{
         width: 55vw;

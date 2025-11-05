@@ -13,12 +13,14 @@ function PC(){
                 <p className="description">Dove la scacchiera è il campo di battaglia</p>
                 <img className="cover" src={PCCover}/>
                 <br/>
-                <Button
-                    bookTitle="Power chess - Il re ferisce più della spada"
-                    pdfRoute="/PDF"
-                    pdfFile="/PC.pdf" 
-                />
-                <BtnLink/>
+                <div className="btnContainer">
+                    <Button
+                        bookTitle="Power chess - Il re ferisce più della spada"
+                        pdfRoute="/PDF"
+                        pdfFile="/PC.pdf" 
+                    />
+                    <BtnLink/>
+                </div>
             </div>
         </>
     );
